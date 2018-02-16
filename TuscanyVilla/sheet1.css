@@ -1,0 +1,224 @@
+﻿.container {
+    display: grid;
+    margin: 2rem auto;
+    max-width: 1000px;
+    width: 90%;
+    /*grid-gap: 8px 8px;*/ /*row gap, column gap*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 300px 110px repeat(3, 300px);
+}
+
+.grid-item-1 {
+    background-color: #708090;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    li {
+        display: inline;
+        margin-right: 25px;
+    }
+
+        li a {
+            text-decoration: none;
+            font-size: 12px;
+            color: white;
+            font-family: Georgia;
+        }
+
+    #logo {
+        margin-right: 570px;
+        font-family: Georgia;
+        color: white;
+    }
+
+.grid-item-2 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+}
+    #d1{
+        margin-top: 10px;
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 45px;
+        color: white;
+    }
+    #d2{
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 14px;
+        color: white;
+        padding: 5px;
+    }
+
+.grid-item-3 {
+    grid-column: 4;
+    grid-row: 2;
+    background-image: url('Images/Versilia.jpg');
+    background-size: cover;
+}
+.grid-item-4{
+    background-color: #708090;
+    grid-column: 1 / span 4;
+    grid-row: 3
+}
+    #d3{
+        margin-top: 45px;
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 20px;
+        color:white;
+        letter-spacing: .5px;
+    }
+    #d4{
+        margin-top: 5px;
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 12px;
+        color: white;
+    }
+.grid-item-5{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    font-family: Cambria;
+}
+
+    #p1{
+        font-family: Cambria;
+        margin-top: 45px;
+        font-size: 18px;
+        color: gray;
+    }
+    #p2{
+        font-family: Cambria;
+        font-size: 12px;
+        color: gray;
+    }
+    .button1 {
+        background-color: #708090;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Georgia;
+        font-size: 12px;
+        padding: 8px 8px 8px 8px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+.grid-item-6 {
+    grid-column: 3 / span 2;
+    grid-row: 4;
+}
+    .blue-pic{
+        width: 340px;
+        height: 220px;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+.grid-item-7{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+    background-color: #708090;
+}
+
+    #pic2 {
+        width: 340px;
+        height: 220px;
+        margin-left: 40px;
+        margin-top: 40px;
+        }
+
+.grid-item-8{
+    grid-column: 3 / span 2;
+    grid-row: 5;
+    background-color: #708090;
+}
+    #p3 {
+        font-family: Cambria;
+        margin-top: 45px;
+        font-size: 18px;
+        color: white;
+    }
+
+    #p4 {
+        font-family: Cambria;
+        font-size: 12px;
+        color: white;
+    }
+
+    .button2 {
+        background-color: white;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Georgia;
+        font-size: 12px;
+        padding: 8px 8px 8px 8px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+.grid-item-9{
+    grid-column: 1 / span 2;
+    grid-row: 6;
+}
+    #p5 {
+        font-family: Cambria;
+        margin-top: 45px;
+        font-size: 18px;
+        color: gray;
+    }
+
+    #p6 {
+        font-family: Cambria;
+        font-size: 12px;
+        color: gray;
+    }
+
+    .button3 {
+        background-color: #708090;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Georgia;
+        font-size: 12px;
+        padding: 8px 8px 8px 8px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
+.grid-item-10{
+    grid-column: 3 / span 2;
+    grid-row: 6;
+}
+    #pic3 {
+        width: 340px;
+        height: 220px;
+        margin-left: 60px;
+        margin-top: 40px
+    }
+
+
+
+
+
+
