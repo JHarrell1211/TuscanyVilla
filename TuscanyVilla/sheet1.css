@@ -10,7 +10,7 @@
 
 .grid-item-1 {
     background-color: #708090;
-    grid-column: 1 / span 4;
+    grid-column: 3 / span 2;
     grid-row: 1;
 }
 
@@ -34,11 +34,18 @@
             font-family: Georgia;
         }
 
-    #logo {
-        margin-right: 570px;
-        font-family: Georgia;
-        color: white;
-    }
+.grid-item-1b {
+    background-color: #708090;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#logo {
+    font-family: Georgia;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
 
 .grid-item-2 {
     grid-column: 1 / span 3;
